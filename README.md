@@ -1,5 +1,7 @@
 # momentum-trading-bot
 
+[![tests](https://github.com/ivyhue-alt/momentum-trading-bot/actions/workflows/tests.yml/badge.svg)](https://github.com/ivyhue-alt/momentum-trading-bot/actions/workflows/tests.yml)
+
 An unattended crypto momentum bot on Alpaca paper trading, built to survive its own failures: broker-side stop losses, state reconciliation against broker records, watchdog supervision, and a kill switch that actually stops everything.
 
 > **Paper trading only. This is a systems-reliability project, not a profitability claim.** Not investment advice and not a recommendation of any strategy. The strategy is deliberately simple; the interesting part is the operational layer around it.
